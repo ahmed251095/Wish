@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="accounting_reports_heapdev.AccReportAction">
+        <div class="o_action o_acc_report_action" t-ref="this.root" t-on-click="this.onClick" t-on-submit="this.onSubmit">
+            <div t-if="this.state.loading" class="o_acc_loading"><i class="oi oi-spin" data-icon="progress_activity"/></div>
+            <t t-out="this.state.html"/>
+        </div>
+    </t>
+</templates>

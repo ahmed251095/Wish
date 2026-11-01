@@ -1,0 +1,11 @@
+id,name,model_id,group_id/id,operation,domain
+access_acc_asset_category_user,acc.asset.category.user,acc.asset.category,account.group_account_invoice,r,
+access_acc_asset_category_manager,acc.asset.category.manager,acc.asset.category,account.group_account_manager,crud,
+access_acc_asset_user,acc.asset.user,acc.asset,account.group_account_invoice,r,
+access_acc_asset_accountant,acc.asset.accountant,acc.asset,account.group_account_user,cru,
+access_acc_asset_manager,acc.asset.manager,acc.asset,account.group_account_manager,crud,
+access_acc_asset_line_user,acc.asset.line.user,acc.asset.line,account.group_account_invoice,r,
+access_acc_asset_line_accountant,acc.asset.line.accountant,acc.asset.line,account.group_account_user,crud,
+access_acc_asset_line_manager,acc.asset.line.manager,acc.asset.line,account.group_account_manager,crud,
+access_acc_asset_dispose_accountant,acc.asset.dispose.accountant,acc.asset.dispose,account.group_account_user,crud,
+access_acc_asset_dispose_manager,acc.asset.dispose.manager,acc.asset.dispose,account.group_account_manager,crud,

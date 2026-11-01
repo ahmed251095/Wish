@@ -1,0 +1,4 @@
+id,name,model_id,group_id/id,operation,domain
+access_acc_followup_level_user,acc.followup.level.user,acc.followup.level,account.group_account_invoice,r,
+access_acc_followup_level_manager,acc.followup.level.manager,acc.followup.level,account.group_account_manager,crud,
+access_acc_followup_run_user,acc.followup.run.user,acc.followup.run,account.group_account_invoice,crud,
